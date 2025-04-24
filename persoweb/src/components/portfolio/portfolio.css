@@ -1,0 +1,93 @@
+.portfolio{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    height: fit-content;
+    padding-bottom: 12rem;
+    color: white;
+}
+.portfolio-content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-items{
+    width: fit-content; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 5rem;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+    width: 25rem;
+    height: 32rem;
+    padding: 2rem;
+    background-color: #452257;
+    overflow-x: hidden;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .btnPortfolio {
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    background-color: #A173B8;
+    color: #452257;
+    font-size: bold;
+    text-decoration: none;
+  }
+
+  .btnPortfolio:hover {
+    background-color: #A173B8;
+    color: white;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+    transform: scale3d(1.6, 1.6, 1.6);
+    transition: 0.3s;
+    text-decoration: underline;
+  }
+  .btnPortfolio:active {
+    background-color: #452257;
+    transform: scale3d(1.6, 1.6, 1.6);
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .btnPortfolio:focus {
+    outline: none;
+    text-decoration: none;
+  }
+
+  .img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }

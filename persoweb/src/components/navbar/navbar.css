@@ -1,0 +1,49 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.Navbar-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.Navbar-links .logo{
+    height: 3rem
+}
+
+.Navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+}
+.Navbar-nav .nav{
+    text-decoration: none;
+    color: #FCFCFC;
+}
+
+.Navbar-doc {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    color: #FCFCFC;
+    gap: 0.5rem; 
+  }
+  .Navbar-doc a:link{
+    display: flex;
+    text-decoration: none;
+  }
+.nav.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

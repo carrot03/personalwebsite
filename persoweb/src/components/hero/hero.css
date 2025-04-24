@@ -1,0 +1,90 @@
+.hero{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    height: fit-content;
+    padding-bottom: 12rem;
+    /* margin: 12%; */
+}
+
+.name{ 
+    grid-area: 1 / 1;
+    width: 100%;
+    animation-fill-mode: none;
+    animation: fadeOut 3s ease-in-out;
+    opacity: 1;
+}
+
+.Hero-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    grid-area: 1 / 1;
+    position: relative;
+}
+
+.Hero-text{
+    font-size: 2rem;
+    color: #FCFCFC;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    opacity: 1;
+    animation-fill-mode: none;
+    animation: fadeOut 1s ease-in-out;
+    opacity: 1;
+    margin: unset;
+}
+
+.Hero-text .text-1{
+    position: relative;
+    /* left:0; */
+    margin: unset;
+}
+.Hero-text .text-2{
+    position: relative;
+    /* left: 5rem;     */
+    margin: unset;
+}
+.Hero-text .text-3{
+    position: relative;
+    /* left: 5rem; */
+    margin: unset;
+}
+.Hero-text .text-4{
+    position: relative;
+    /* left: 5rem; */
+    margin: unset;
+    font-size: 1rem;
+    padding-top: 1%;;
+}
+
+@media(prefers-reduced-motion) {
+    .Hero-text{
+        transition: none;
+    }
+}
+
+@keyframes leftToRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+    
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}

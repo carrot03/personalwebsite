@@ -1,0 +1,87 @@
+.contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    color: white;
+    margin: 2rem;
+}
+.Contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 125%;
+
+}
+.Contact-form .email, .msg{
+    border-color: #452257;
+    border-radius: 0.5rem;
+    background-color: #A173B8;
+  }
+  ::placeholder {
+    color: white;
+  }
+
+.Contact-form .email{
+    padding: 0.5rem 1rem;
+  }
+
+  .Contact-form .msg{
+    padding: 0.5rem 1rem;
+    height: 5rem;
+    resize: vertical;
+  }
+
+.btn {
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    background-color: #452257;
+    color: white;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .binary-container {
+    font-family: monospace;
+    color: #0f0;
+    background-color: black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .num {
+    line-height: 1.4;
+  }
+  
+  
