@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "Hiba Tantawi",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#452257",
+  "background_color": "#452257"
 }
