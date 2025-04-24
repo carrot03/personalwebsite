@@ -1,7 +1,5 @@
 import "./hero.css";
 import name from "../../images/HIBA.svg";
-import Hibaimage from "../../images/hibaimage.svg";
-import coding from "../../images/coding-pinterest.svg";
 
 function Hero() {
   return (

@@ -1,5 +1,4 @@
 import "./portfolio.css";
-import hibaimge from "../../images/hibaimage.svg";
 import snhackrover from "../../images/snhackrover.svg";
 import physiobuddy from "../../images/physiobuddy.jpeg";
 import vangogh from "../../images/vangogh.png";
