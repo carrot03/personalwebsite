@@ -34,7 +34,7 @@ function Portfolio() {
               <img className="img" src={vangogh} alt="Avatar" ></img>
               <div class="container">
                 <h4><b>Van Gogh Site</b></h4>
-                <p>A creative project inspired by Van Gogh’s artistic vision. The idea behind this design was to imagine:
+                <p>A creative project inspired by Van Gogh’s artistic vision. The idea behind this design is to imagine:
                 "What if Van Gogh made a website? How would it look?"</p>
                 <a type="button" className="btnPortfolio" href="https://www.figma.com/design/wnAwQIKMYfGMqO6EE8BWYC/Van-Gogh-site?node-id=0-1&t=d0zsrbPvtSRiqQ2F-1" target="_blank">Check it out</a>
               </div>
