@@ -8,10 +8,12 @@ function Navbar({ currentSection }) {
   return (
     <div className="Navbar">
         <div className="Navbar-links">
-          
-                <img className="logo" src={github} alt="Github logo"></img>
-                <img className="logo" src={linkedin} alt="LinkedIn logo"></img>
-                <img className="logo" src={devpost} alt="Devpost logo"></img>
+          <a href="https://github.com/carrot03" target="_blank" rel="noopener noreferrer">
+                <img className="logo" src={github} alt="Github logo" ></img></a>
+                <a href="https://www.linkedin.com/in/hibatant" target="_blank" rel="noopener noreferrer">
+                <img className="logo" src={linkedin} alt="LinkedIn logo"></img></a>
+                <a href="https://devpost.com/carrot03" target="_blank" rel="noopener noreferrer">
+                <img className="logo" src={devpost} alt="Devpost logo" href="https://devpost.com/carrot03"></img></a>
        
         </div>
         <div>
