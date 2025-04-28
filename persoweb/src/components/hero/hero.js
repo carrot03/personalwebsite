@@ -10,7 +10,7 @@ function Hero() {
 <div className="Hero-content">
   
 <div className="Hero-text">
-<p className="text-1">Hey there!</p>
+<p className="text-1">Hey there!!</p>
 <p className="text-2">I am Hiba...</p>
 <p className="text-3">thank you for stopping by...</p>
 <p className="text-4">In this world full of matcha lovers I love Vanilla Latte</p>
